@@ -11,19 +11,33 @@ const link = {
   color: 'white',
 }
 
+<<<<<<< HEAD
 const Navbar = () =>
   <div>
     <NavLink
       to="/"
       exact
+=======
+const Navbar = () => 
+  <div>
+    <NavLink 
+      to="/"
+      exact 
+>>>>>>> f07a792c8fed4fd41eb59c3a133a2634af57ff0e
       style={link}
       activeStyle={{
         background: 'darkblue'
       }}
       >Home</NavLink>
+<<<<<<< HEAD
       <NavLink
         to="/about"
         exact
+=======
+      <NavLink 
+        to="/about"
+        exact 
+>>>>>>> f07a792c8fed4fd41eb59c3a133a2634af57ff0e
         style={link}
         activeStyle={{
           background: 'darkblue'
@@ -31,7 +45,11 @@ const Navbar = () =>
       >About</NavLink>
       <NavLink
         to="/login"
+<<<<<<< HEAD
         exact
+=======
+        exact  
+>>>>>>> f07a792c8fed4fd41eb59c3a133a2634af57ff0e
         style={link}
         activeStyle={{
           background: 'darkblue'
@@ -40,7 +58,11 @@ const Navbar = () =>
       </div>;
 
  const Home = () => <h1>Home!</h1>;
+<<<<<<< HEAD
 
+=======
+      
+>>>>>>> f07a792c8fed4fd41eb59c3a133a2634af57ff0e
  const About = () => <h1>This is my about component!</h1>;
 
 
